@@ -12,7 +12,7 @@ export default function HomePage() {
             Ghanaian Heritage
           </p>
           <h1 className="mt-3 font-display text-4xl font-bold text-brand-earth dark:text-stone-50 sm:text-5xl">
-            Culture is my Brand
+           Fawora(Take and Wear It)
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-stone-600 dark:text-stone-400">
             Each T-shirt carries an Adinkra symbol with a story. Scan the QR

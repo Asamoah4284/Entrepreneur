@@ -41,7 +41,7 @@ export const symbols = [
     history:
       "Adinkra symbols have been passed down for generations, originally printed on cloth for royal and sacred occasions. Our brand continues that tradition for a new generation: buyers scan a QR code on each shirt to learn the meaning behind the symbol they carry.",
     culturalSignificance:
-      "Wearing Culture is my Brand means carrying Ghanaian history into everyday life. It invites conversation, education, and pride — for Ghanaians at home and in the diaspora, and for anyone who values African heritage.",
+      "Wearing Fawora Brand means carrying Ghanaian history into everyday life. It invites conversation, education, and pride — for Ghanaians at home and in the diaspora, and for anyone who values African heritage.",
   },
   {
     slug: "fawohodie",

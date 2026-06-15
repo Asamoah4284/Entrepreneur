@@ -9,7 +9,7 @@ export default function Layout({ children }) {
             to="/"
             className="font-display text-lg font-bold text-brand-earth dark:text-brand-gold"
           >
-            Culture is my Brand
+            Fawora(Take and wear it)
           </Link>
           <Link
             to="/qr"
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
 
       <footer className="pattern-border border-t border-brand-gold/20 py-6 text-center text-sm text-stone-500 dark:text-stone-400">
         <p className="font-display text-brand-earth dark:text-brand-gold">
-          Culture is my Brand
+          Fawora(Take and Wear IT)
         </p>
         <p className="mt-1">Ghanaian Adinkra · Wear your heritage</p>
       </footer>
