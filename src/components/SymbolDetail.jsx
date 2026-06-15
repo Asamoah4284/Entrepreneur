@@ -130,21 +130,7 @@ export default function SymbolDetail({ symbol }) {
           </div>
         </div>
 
-        {/* Action Buttons inside sticky col */}
-        <div className="mt-6 flex gap-3 w-full">
-          <Link
-            to="/"
-            className="flex-1 rounded-2xl border border-brand-gold/30 hover:border-brand-gold bg-white/40 dark:bg-stone-900/40 px-5 py-3.5 text-center text-xs font-semibold uppercase tracking-wider text-brand-earth hover:text-brand-rust dark:text-stone-300 dark:hover:text-brand-gold transition duration-200 backdrop-blur-sm"
-          >
-            ← All Symbols
-          </Link>
-          <Link
-            to="/qr"
-            className="flex-1 rounded-2xl bg-brand-earth dark:bg-brand-gold hover:bg-brand-rust dark:hover:bg-brand-gold/80 px-5 py-3.5 text-center text-xs font-semibold uppercase tracking-wider text-brand-cream dark:text-brand-earth transition duration-200 shadow-md hover:shadow-lg"
-          >
-            Download QR
-          </Link>
-        </div>
+     
       </div>
 
       {/* Right Column - Cultural Narratives Grid */}

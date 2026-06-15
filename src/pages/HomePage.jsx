@@ -19,12 +19,7 @@ export default function HomePage() {
             code on your shirt to discover its meaning, origin, and cultural
             significance.
           </p>
-          <Link
-            to="/qr"
-            className="mt-6 inline-block rounded-full bg-brand-earth px-8 py-3 text-sm font-medium text-brand-cream transition hover:bg-brand-rust dark:bg-brand-gold dark:text-brand-earth"
-          >
-            Download QR codes for printing
-          </Link>
+        
         </div>
 
         <div className="mt-12">

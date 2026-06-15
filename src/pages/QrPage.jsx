@@ -57,20 +57,7 @@ export default function QrPage() {
           ))}
         </div>
 
-        <div className="mt-12 rounded-xl border border-brand-gold/20 bg-white p-5 dark:border-stone-700 dark:bg-stone-900">
-          <h2 className="font-display text-lg font-semibold text-brand-earth dark:text-brand-gold">
-            Print tips
-          </h2>
-          <ul className="mt-3 list-inside list-disc space-y-1 text-sm text-stone-600 dark:text-stone-400">
-            <li>Print at least 2cm × 2cm for reliable scanning</li>
-            <li>Use high contrast — black QR on white background</li>
-            <li>Leave a white margin (quiet zone) around the code</li>
-            <li>
-              After deploying, set <code className="text-xs">VITE_SITE_URL</code>{" "}
-              to your live URL and redeploy before printing
-            </li>
-          </ul>
-        </div>
+   
       </section>
     </Layout>
   );

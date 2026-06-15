@@ -30,12 +30,12 @@ export const symbols = [
       "Agyin Dawuro is worn or shown by those who value alertness, leadership, and being prepared. It encourages people to listen, respond, and act when duty or opportunity calls.",
   },
   {
-    slug: "culture-is-my-brand",
-    name: "Culture is my Brand",
-    subtitle: "Our Story",
+    slug: "Faworah",
+    name: "Faworah",
+    subtitle: "take and wear it",
     image: "/symbols/culture-is-my-brand.png",
     meaning:
-      "Culture is my Brand is the heart of our T-shirt line — a celebration of Ghanaian heritage worn with pride. Each shirt carries an Adinkra symbol and a story, turning everyday fashion into a statement of identity and belonging.",
+      "Faworah is the heart of our T-shirt line — a celebration of Ghanaian heritage worn with pride. Each shirt carries an Adinkra symbol and a story, turning everyday fashion into a statement of identity and belonging.",
     origin:
       "Born from an entrepreneurship project rooted in Ghanaian culture, this brand connects modern streetwear with the wisdom of Akan symbols. We believe culture is not something you leave behind — it is something you wear forward.",
     history:
