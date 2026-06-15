@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-gold: #c9a227;
+  --color-brand-earth: #5c3d2e;
+  --color-brand-cream: #faf6f0;
+  --color-brand-rust: #8b4513;
+  --font-display: "Georgia", "Times New Roman", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-brand-cream text-brand-earth antialiased dark:bg-stone-950 dark:text-stone-100;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.pattern-border {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 8px,
+    color-mix(in srgb, var(--color-brand-gold) 25%, transparent) 8px,
+    color-mix(in srgb, var(--color-brand-gold) 25%, transparent) 10px
+  );
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.45;
+    transform: scale(1);
+    filter: blur(40px);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+    filter: blur(55px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 6s ease-in-out infinite;
+}
+
+.glass-panel {
+  @apply bg-white/50 border border-stone-200/60 backdrop-blur-md dark:bg-stone-900/50 dark:border-stone-800/40 shadow-sm transition-all duration-300;
+}
+
+.glass-card {
+  @apply bg-white/80 border border-brand-gold/30 backdrop-blur-lg dark:bg-stone-900/85 dark:border-brand-gold/15 shadow-xl transition-all duration-500;
+}
+
+.glass-header {
+  @apply bg-white/70 backdrop-blur-md dark:bg-stone-950/70 border-b border-brand-gold/20;
+}
+
