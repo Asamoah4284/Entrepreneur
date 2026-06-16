@@ -1,10 +1,16 @@
 @import "tailwindcss";
 
+/* Make dark mode opt-in (class-based) instead of following the OS.
+   FAWORA is a cream/black/gold identity — the logo's black ink needs a
+   light background — so the site stays in its branded light theme. */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
-  --color-brand-gold: #c9a227;
-  --color-brand-earth: #5c3d2e;
-  --color-brand-cream: #faf6f0;
-  --color-brand-rust: #8b4513;
+  /* Palette sampled directly from the FAWORA logo */
+  --color-brand-gold: #bb882b;
+  --color-brand-earth: #1b1712;
+  --color-brand-cream: #fdf8f1;
+  --color-brand-rust: #9a7522;
   --font-display: "Georgia", "Times New Roman", serif;
 }
 
@@ -66,6 +72,6 @@ body {
 }
 
 .glass-header {
-  @apply bg-white/70 backdrop-blur-md dark:bg-stone-950/70 border-b border-brand-gold/20;
+  @apply bg-brand-cream/85 backdrop-blur-md border-b border-brand-gold/25;
 }
 

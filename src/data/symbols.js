@@ -31,11 +31,11 @@ export const symbols = [
   },
   {
     slug: "Faworah",
-    name: "Faworah",
-    subtitle: "take and wear it",
-    image: "/symbols/culture-is-my-brand.png",
+    name: "Fawora",
+    subtitle: "Pick it. Wear it.",
+    image: "/fawora-mark.png",
     meaning:
-      "Faworah is the heart of our T-shirt line — a celebration of Ghanaian heritage worn with pride. Each shirt carries an Adinkra symbol and a story, turning everyday fashion into a statement of identity and belonging.",
+      "Fawora is the heart of our T-shirt line — a celebration of Ghanaian heritage worn with pride. Each shirt carries an Adinkra symbol and a story, turning everyday fashion into a statement of identity and belonging.",
     origin:
       "Born from an entrepreneurship project rooted in Ghanaian culture, this brand connects modern streetwear with the wisdom of Akan symbols. We believe culture is not something you leave behind — it is something you wear forward.",
     history:

@@ -15,7 +15,7 @@ export async function generateQrDataUrl(url) {
   return QRCode.toDataURL(url, {
     width: 280,
     margin: 2,
-    color: { dark: "#1c1917", light: "#ffffff" },
+    color: { dark: "#1b1712", light: "#ffffff" },
   });
 }
 
